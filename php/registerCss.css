@@ -1,0 +1,96 @@
+.logo{
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+section{
+	margin-left: 35%;
+	margin-top: 5%;
+
+}
+
+input.underline{
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 1;
+	width: 35%;
+	font-size: 15px;
+	border-color: rgb(7,22,72);
+
+}
+
+input.underline:focus{
+	outline: none;
+}
+
+input.underline:hover{
+	box-shadow: 2px 2px 2px black;
+}
+
+input.gunbok{
+	width: 82px;
+	height: 26px;
+	background: url("images/gunbokbutton.png") no-repeat;
+	border-radius: 5px 5px;
+	border-width: 0;
+}
+
+input.gunbok:focus{
+	border-radius: 5px 5px;
+}
+
+input.underline2{
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 1;
+	width: 46%;
+	font-size: 15px;
+	border-color: rgb(5,120,180);
+}
+
+input.underline2:hover{
+	box-shadow: 2px 2px 2px black;
+}
+
+input.underline2:focus{
+	outline: none;
+}
+
+input.underline3{
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 1;
+	width: 46%;
+	font-size: 15px;
+	border-color: rgb(7,22,72);
+}
+
+input.underline3:hover{
+	box-shadow: 2px 2px 2px black;
+}
+
+input.underline3:focus{
+	outline: none;
+}
+
+input.join{
+	width: 378px;
+	height: 35px;
+	background: url("images/joinbutton.png") no-repeat;
+	border: 0;
+}
+
+footer{
+	margin-top: 15%;
+}
+
+span{
+	font-family: 'Jua', sans-serif;
+}

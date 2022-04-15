@@ -1,0 +1,107 @@
+ body{
+	height: 100vh;
+	background-image: url("images/loginbackimage.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url("images/loginbackimage.png") no-repeat center/cover;
+}
+header{
+	width: 100%; height: 15%;
+}
+section{
+	width: 100%; height: 65%;
+}
+div.box{
+	width: 800px;
+	height: 250px;
+	margin: 8px;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+div.box::after{
+	width: 800px;
+	height: 260px;
+	
+	content: "";
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.7;
+}
+/*div메인 내부 구역*/
+div.left{
+	width: 50%;
+	float: left;
+}
+div.right{
+	width: 50%;
+	float: right;
+	
+}
+
+/*div메인구역*/
+div.left1{
+	width: 400px;
+	float: left;
+}
+div.right2{
+	width: 400px;
+	float: right;
+}
+input[type=text]{
+	border-width: 0px;
+	box-shadow: 1px 1px 5px black;
+	margin-top: 30%;
+	font-size: 120%;
+	width: 200px;
+	height: 30px;
+}
+
+input[type=password]{
+	border-width: 0px;
+	box-shadow: 1px 1px 5px black;
+	margin-top: 8%;
+	margin-bottom: 4%;
+	font-size: 120%;
+	width: 200px;
+	height: 30px;
+}
+
+input[type=image]{
+	margin-top: 30%;
+	margin-left: 9%;
+	width: 100px;
+	height: 85px;
+	opacity: 1;
+}
+
+input[type=text]:hover,input[type=text]:focus{
+	border-width: 2px;
+	box-shadow: 1px 1px 5px black;
+}
+
+input[type=password]:hover, input[type=password]:focus{
+	border-width: 2px;
+	box-shadow: 1px 1px 5px black;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(93,93,93);
+}
+a:hover{
+	text-decoration: underline;
+	color: #003399;
+}
+
+.size{
+	width: 280px;
+	height: 80px;
+	margin-top: 15%;
+	margin-left: 10%;
+}
